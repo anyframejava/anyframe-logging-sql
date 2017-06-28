@@ -1,5 +1,5 @@
-<chapter id="loggingsql_sqllogging_simplelogging">
-		<title>Step 2. Simple Logging Facade for Java 라이브러리 다운로드</title>
+<section id="loggingsql_sqllogging_simplelogging">
+		<title>Simple Logging Facade for Java 라이브러리 다운로드</title>
 
       	<para>
       		log4jdbc는 <ulink url="http://slf4j.org/">Simple Logging Facade for
@@ -50,4 +50,4 @@
           			</tbody>
         	</tgroup>
 		</informaltable>
-</chapter>
+</section>

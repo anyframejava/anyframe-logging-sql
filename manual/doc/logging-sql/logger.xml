@@ -1,5 +1,5 @@
 <chapter id="loggingsql_sqllogging_logger">
-		<title>Step 5. Logger 정의</title>
+		<title>Logger 정의</title>
 
 		<para>
 			lo4jdbc를 사용하여 로그를 남기기 위해서는 log4j.xml 파일 내에 다음을 참고하여, 필요한 Logger를

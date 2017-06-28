@@ -1,5 +1,5 @@
-<chapter id="loggingsql_sqllogging_log4jdbc">
-		<title>Step 1. Log4jdbc 라이브러리 다운로드</title>
+<section id="loggingsql_sqllogging_log4jdbc">
+		<title>Log4jdbc 라이브러리 다운로드</title>
 
 		<para>
       		다음을 참고하여, 필요한 log4jdbcX-*.jar 파일을 다운로드한 후,<emphasis role="bold">
@@ -37,4 +37,4 @@
           			</tbody>
         	</tgroup>
       	</informaltable>
-</chapter>
+</section>

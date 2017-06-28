@@ -31,10 +31,10 @@
 	
 	<bookinfo>
 		<copyright>
-			<year>2007-2011</year>
+			<year>2007-2012</year>
 			<holder>삼성SDS</holder>
 		</copyright>
-		<releaseinfo>Version 1.0.1</releaseinfo>
+		<releaseinfo>Version 1.0.2</releaseinfo>
 
 		<productname>Anyframe Logging Sql Plugin</productname>
 		
@@ -82,7 +82,7 @@
 					</thead>
 					<tbody>
 						<row>
-							<entry align="center"><ulink url="http://dev.anyframejava.org/docs/anyframe/plugin/essential/core/1.0.3/reference/htmlsingle/core.html">core</ulink></entry>
+							<entry align="center"><ulink url="http://dev.anyframejava.org/docs/anyframe/plugin/essential/core/1.0.4/reference/htmlsingle/core.html">core</ulink></entry>
 							<entry align="center" valign="middle">2.0.0 > *</entry>
 						</row>
 					</tbody>
@@ -95,52 +95,44 @@
 		<title>Logging SQL</title>
 		<partintro>
 		    <para>
-		    	Query 서비스를 통해 수행되는 SQL을 로그로 남기기 위해서는
-		    	log4jdbc라는 오픈소스를 활용할 수 있다. log4jdbc는
-		    	JDBC 호출이나 SQL문에 대해 로그를 남길 수 있는 JDBC Driver를 제공하고 있다. log4jdbc에 대한 보다 자세한
-		   		 내용은 <ulink url="http://code.google.com/p/log4jdbc/">http://code.google.com/p/log4jdbc/</ulink>
+		    	Query 서비스를 통해 수행되는 SQL을 로그로 남기기 위해서는 log4jdbc라는 오픈소스를 활용할 수 있다. 
+				log4jdbc는 JDBC 호출이나 SQL문에 대해 로그를 남길 수 있는 JDBC Driver를 제공하고 있다. 
+				log4jdbc에 대한 보다 자세한 내용은 <ulink url="http://code.google.com/p/log4jdbc/">http://code.google.com/p/log4jdbc/</ulink>
 		    	를 참조한다.
+				SQL문을 로그로 남기기 위한 library는 해당 플러그인을 설치하면 자동 설치된다. library를 수동으로 설치할 경우에는 <link linkend="appendix_loggingsql_lib">Library 수동 설치 방법</link>을 참조한다.
 		    </para>
 			<para>
-				다음에서는 log4jdbc를 사용하여 SQL을 로그로 남기기 위한 절차를 5개의 STEP으로 나누어 설명하고자
+				다음에서는 log4jdbc를 사용하여 SQL을 로그로 남기기 위한 절차를 3개의 STEP으로 나누어 설명하고자
 		    	한다.
 		    </para>
 		    <itemizedlist>
 		      	<listitem>
 		        	<para>
-		        		Step 1. Log4jdbc 라이브러리 다운로드
-		        	</para>
-		      	</listitem>
-		
-		      	<listitem>
-		        	<para>
-		        		Step 2. Simple Logging Facade for Java 라이브러리 다운로드
-		        	</para>
-		      	</listitem>
-		
-		      	<listitem>
-		        	<para>
-		        		Step 3. DataSource 속성 정의
+		        		Step 1. DataSource 속성 정의
 		        	</para>
 		      	</listitem>
 		
 		      	<listitem>
 		       		<para>
-		        		Step 4. Query 서비스 속성 정의
+		        		Step 2. Query 서비스 속성 정의
 		        	</para>
 		      	</listitem>
 		
 		      	<listitem>
 		        	<para>
-		        		Step 5. Logger 정의
+		        		Step 3. Logger 정의
 		        	</para>
 		      	</listitem>
 		    </itemizedlist>		    
 		</partintro>	
-		&loggingsql_sqllogging_log4jdbc;
-		&loggingsql_sqllogging_simplelogging;
 		&loggingsql_sqllogging_datasource;
 		&loggingsql_sqllogging_queryservice;
 		&loggingsql_sqllogging_logger;
 	</part>	
+	
+	<appendix id="appendix_loggingsql_lib" label="A">
+		<title>Library 수동 설치 방법</title>		
+			&loggingsql_sqllogging_log4jdbc;
+			&loggingsql_sqllogging_simplelogging;
+	</appendix>
 </book>
