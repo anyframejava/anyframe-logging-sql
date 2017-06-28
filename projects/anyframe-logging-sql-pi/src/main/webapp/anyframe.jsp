@@ -5,7 +5,7 @@
   	<div id="container">
     	<div class="main_greeting">
         	<dl>
-                <dt>Welcome to Anyframe 5.6.0</dt>
+                <dt>Welcome to Anyframe 5.6.1-SNAPSHOT</dt>
                 <dd>Congratulations! Anyframe application has been successfully installed. Anyframe is an open source project and application framework that provides basic architecture, common technical services, templates to help you develop web applications on the Java platform quickly and efficiently.</dd>
             </dl>
         </div>
@@ -24,7 +24,7 @@
                     	<ul>
                         <!--Add new configuration here-->
                     		<!--logging-sql-configuration-START-->
-							<li>Logging-SQL 1.1.0</li>
+							<li>Logging-SQL 1.1.1-SNAPSHOT</li>
 							<!--logging-sql-configuration-END-->
                         </ul>
                     </td>
